@@ -24,3 +24,7 @@ apt install wget -y; bash <(wget -qO- https://github.com/Lockednet/LOCKEDWEB/raw
 ```
 apt install wget -y; bash <(wget -qO- https://github.com/Lockednet/LOCKEDWEB/raw/main/install/sincpainel.sh)
 ```
+
+![PAINEL WEB](https://i.imgur.com/iqtKPbu.jpg)
+
+![PWEB](https://i.imgur.com/VAU5zR1.jpg)
