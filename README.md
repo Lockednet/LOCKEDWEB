@@ -1,6 +1,6 @@
 ## 👉 <b>PAINEL WEB</b>
 
-######## '''Sistema recomendado (Ubuntu 18)
+'''Sistema recomendado (Ubuntu 18)
 e de extrema importância atualizar seu sistema para que que todos os os pacotes e dependências nescessárias sejam instalados'''
 
 
