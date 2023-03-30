@@ -15,7 +15,7 @@ apt install wget -y; bash <(wget -qO- https://github.com/Lockednet/LOCKEDWEB/raw
 ```
 </br>
 
-### 🔐 CHAVE DE CHAME ⤵️
+### 🔐 OBTER CHAVE CHAME ⤵️
 ```
 @LOCKED_SSH
 ```
