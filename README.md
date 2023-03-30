@@ -1,10 +1,10 @@
 ## 👉 <b>PAINEL WEB</b>
 
-**Sistema recomendado (coloUbuntu 18)<br>
+**Sistema recomendado (Ubuntu 18)<br>
 e de extrema importância atualizar seu sistema para que que todos os os pacotes e dependências nescessárias sejam instalados**
 
 
-### ⚠️ <span style="color:#0000FF;">🆙 ATUALIZAR SISTEMA</span>
+### ⚠️ <span style="color:#00ff00;">🆙 ATUALIZAR SISTEMA</span>
 ```
 sudo apt update && sudo apt upgrade && sudo apt autoremove && sudo apt autoclean
 ```
