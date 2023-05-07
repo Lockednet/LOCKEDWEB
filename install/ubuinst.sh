@@ -112,6 +112,7 @@ function dependencias {
       sleep 2
       tput cuu1 && tput dl1
       print_center -ama "APLICANDO FIX A $i"
+      clear
       dpkg --configure -a &>/dev/null
       sleep 2
       tput cuu1 && tput dl1
@@ -129,7 +130,7 @@ if [[ -e "/var/www/html/pages/system/pass.php" ]]; then
 clear
 msg -bar
 echo -e "\033[1;31mPAINEL JÁ INSTALDO EM SUA VPS, RECOMENDO\033[0m"
-echo -e "\033[1;31mUMA FORMATAÇÃO PARA UMA NOVA INSTALÇÃO!\033[0m"
+echo -e "\033[1;31mUMA FORMATAÇÃO PARA UMA NOVA INSTALAÇÃO!\033[0m"
 msg -bar
 sleep 5
 systemctl restart apache2 > /dev/null 2>&1
