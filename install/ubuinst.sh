@@ -111,9 +111,9 @@ function dependencias {
       msg -verm2 " ERRO"
       sleep 2
       tput cuu1 && tput dl1
-      print_center -ama "APLICANDO FIX A $i"
+      print_center -ama
       dpkg --configure -a &>/dev/null
-      sleep 2
+      sleep 1
       tput cuu1 && tput dl1
 
       msg -nazu "    INSTALANDO $i$(msg -ama "$pts")"
