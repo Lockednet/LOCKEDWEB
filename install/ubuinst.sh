@@ -111,11 +111,10 @@ function dependencias {
       msg -verm2 " ERRO"
       sleep 2
       tput cuu1 && tput dl1
-      print_center -ama
+      print_center -ama "APLICANDO FIX A $i"
       dpkg --configure -a &>/dev/null
-      sleep 1
+      sleep 2
       tput cuu1 && tput dl1
-
       msg -nazu "    INSTALANDO $i$(msg -ama "$pts")"
       if apt install $i -y &>/dev/null; then
         msg -verd " INSTALADO"
