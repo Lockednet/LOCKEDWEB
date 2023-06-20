@@ -300,9 +300,9 @@ echo "
 @reboot /etc/autostart
 * * * * * /etc/autostart
 0 */12 * * * cd /var/www/html/pages/system/ && bash cron.backup.sh && cd /root
-5 */1 * * * cd /var/www/html/pages/system/ && /usr/bin/php cron.backup.php && cd /root
+5 */3 * * * cd /var/www/html/pages/system/ && /usr/bin/php cron.backup.php && cd /root
 * * * * * cd /var/www/html/pages/system/ && bash cron.userteste.sh && cd /root
-2 */1 * * * cd /var/www/html/pages/system/ && bash cron.autobackup.sh && cd /root
+2 */3 * * * cd /var/www/html/pages/system/ && bash cron.autobackup.sh && cd /root
 * * * * * /usr/bin/php /var/www/html/pages/system/cron.online.ssh.php
 @daily /usr/bin/php /var/www/html/pages/system/cron.rev.php
 * * * * * /usr/bin/php /var/www/html/pages/system/cron.ssh.php
